@@ -14,7 +14,7 @@ if (idade1 >= 18 && temCarteira){
     console.log("Pode dirigir")
 }
 
-// ! no temCarteira é para inverter o valor, ou seja, se torna 
+// ! no temCarteira é para inverter o valor, ou seja, se torna não tem carteira
 if(idade1 <18 || !temCarteira){  
     console.log("Não pode dirigir")
 }
